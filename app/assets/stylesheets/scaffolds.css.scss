@@ -1,69 +1,53 @@
-body {
-  background-color: #fff;
-  color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-}
+// Place all the styles related to the Products controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
 
-p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-}
-
-pre {
-  background-color: #eee;
-  padding: 10px;
-  font-size: 11px;
-}
-
-a {
-  color: #000;
-  &:visited {
-    color: #666;
+/* START_HIGHLIGHT */
+.products {
+  table {
+    border-collapse: collapse;
   }
-  &:hover {
-    color: #fff;
-    background-color: #000;
+
+  table tr td {
+    padding: 5px;
+    vertical-align: top;
   }
-}
 
-div {
-  &.field, &.actions {
-    margin-bottom: 10px;
+  .list_image {
+    width:  60px;
+    height: 70px;
   }
-}
 
-#notice {
-  color: green;
-}
+  .list_description {
+    width: 60%;
 
-.field_with_errors {
-  padding: 2px;
-  background-color: red;
-  display: table;
-}
+    dl {
+      margin: 0;
+    }
 
-#error_explanation {
-  width: 450px;
-  border: 2px solid red;
-  padding: 7px;
-  padding-bottom: 0;
-  margin-bottom: 20px;
-  background-color: #f0f0f0;
-  h2 {
-    text-align: left;
-    font-weight: bold;
-    padding: 5px 5px 5px 15px;
-    font-size: 12px;
-    margin: -7px;
-    margin-bottom: 0px;
-    background-color: #c00;
-    color: #fff;
+    dt {
+      color:        #244;
+      font-weight:  bold;
+      font-size:    larger;
+    }
+
+    dd {
+      margin: 0;
+    }
   }
-  ul li {
-    font-size: 12px;
-    list-style: square;
+
+  .list_actions {
+    font-size:    x-small;
+    text-align:   right;
+    padding-left: 1em;
+  }
+
+  .list_line_even {
+    background:   #e0f8f8;
+  }
+
+  .list_line_odd {
+    background:   #f8b0f8;
   }
 }
+/* END_HIGHLIGHT */
