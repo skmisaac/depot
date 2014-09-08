@@ -23,3 +23,11 @@ ruby:
   price:       49.50
   image_url:   ruby.png 
 #END:ruby
+
+too_short: 
+  title:       Progr
+  description: 
+    yes
+  price:       49.50
+  image_url:   ruby.png 
+#END:too_short
